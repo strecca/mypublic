@@ -33,12 +33,12 @@ const AnalyticsChart: React.FC<AnalyticsChartProps> = ({ labels, data, title }) 
         ],
     };
 
-    // Explicitly define the options type using ChartOptions for "bar"
+    // Explicitly define the options type using ChartOptions for a "bar" chart
     const options: ChartOptions<"bar"> = {
         responsive: true,
         plugins: {
             legend: {
-                position: "top", // Ensure this matches one of the accepted values
+                position: "top", // Valid TypeScript value
             },
             title: {
                 display: true,
