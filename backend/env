@@ -1,4 +1,0 @@
-MONGO_URI=mongodb://localhost:27017/form-pwa
-COUCHDB_URL=http://admin:password@localhost:5984
-JWT_SECRET=supersecretkey
-PORT=5030
